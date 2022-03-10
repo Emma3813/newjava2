@@ -1,3 +1,4 @@
+
 pipeline
 {
     agent any
@@ -11,7 +12,7 @@ pipeline
                 {
                     try
                     {
-                      git 'https://github.com/Emma3813/newjava2.git'  
+                      git 'https://github.com/intelliqittrainings/maven.git'  
                     }
                       catch(Exception e1)
                     {
@@ -102,5 +103,4 @@ pipeline
         
     }
 }
-
 
